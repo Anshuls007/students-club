@@ -1,0 +1,79 @@
+.codinate{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.staffcodinate{
+    width: 50%;
+    height: 70vh;
+}
+.studentcodinate{
+    width: 50%;
+    height: 75vh;
+}
+.sttitle{
+    font-size: 3rem;
+}
+.stphoto{
+    width: 15rem;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+.stname{
+    font-size: 2.5rem;
+}
+.stallcompo{
+    margin-top: 30px !important;
+}
+.stcompo{
+    font-size: 2rem;
+}
+.regbtn{
+    font-size: 3rem;
+    font-weight: 400;
+    background: linear-gradient(90deg, #755bea, #ff72c0);
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    letter-spacing: 0ch;
+}
+
+@media only screen and (max-width: 600px){
+.codinate{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.sttitle{
+    font-size: 2rem;
+}
+.regbtn{
+    font-size: 1.3rem;
+}
+.stphoto{
+    border: 4px solid black;
+    border-radius: 50%;
+    width: 9rem;
+}
+.stname{
+    font-size: 2rem;
+}
+.stcompo{
+    font-size: 1.3rem;
+}
+.staffcodinate{
+    width: 100%;
+    height: 60vh;
+}
+.stallcompo{
+    font-size: 0.5rem !important;
+}
+.studentcodinate{
+    width: 100%;
+    height: 50vh;
+}
+}

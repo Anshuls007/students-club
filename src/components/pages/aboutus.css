@@ -1,0 +1,36 @@
+.container12{
+    /* border: 3px solid blue; */
+    width: 100%;
+    /* display: flex;
+    justify-content: center; */
+}
+.box12{
+    /* width: min(100% -15px, 840px); */
+    margin-inline: auto;
+    text-align: center;
+}
+.para1{
+    margin: auto;
+    width: 100vh;
+}
+.title1{
+    font-family: 'Headland One', serif;
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: 1px !important;
+    color: black;
+    -webkit-text-stroke-width: 1px !important;
+    -webkit-text-stroke-color: whitesmoke;
+}
+@media only screen and (max-width: 600px){
+.title1{
+    letter-spacing: normal !important;
+    font-size: 2.8rem;
+    -webkit-text-stroke-width: 0.5px !important;
+    -webkit-text-stroke-color: whitesmoke;
+}       
+.para1{
+    font-size: small;
+    width: 40vh;
+}
+}

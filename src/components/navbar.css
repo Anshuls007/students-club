@@ -1,0 +1,36 @@
+.logo{
+    width: 135px;
+    height : 45px;
+
+}
+.bg-light{
+    background-color: transparent !important;
+  }
+/* social icon */
+.facebook{
+    color: dodgerblue;
+}
+.instagram{
+    color: lightpink;
+}
+.youtube{
+    color: red;
+}
+/* Icon size */
+.icon-size{
+    text-decoration: none;
+    margin-top: 0px;
+    padding-right: 30px;
+    font-size: 2rem;
+}
+/* navbar elements */
+.section{
+    margin: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    /* justify-content: space-around; */
+}
+.nav-item{
+    padding-right: 50px;
+    font-size: 1.2rem;
+}

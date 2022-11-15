@@ -1,0 +1,11 @@
+.card-title{
+    text-align: center;
+}
+
+.card-group{
+    flex-wrap: wrap;
+}
+
+.card-group div{
+    flex: 0 0 33.333333% !important;
+}

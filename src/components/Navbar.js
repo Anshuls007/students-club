@@ -28,7 +28,7 @@ const Navbar = () => {
                 <a className="nav-link text-primary" href="/#aboutid">About us</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-primary" href="/#fqa">FAQ</a>
+                <a className="nav-link text-primary" href="/#fqaid">FAQ</a>
               </li>
 
             </ul>
